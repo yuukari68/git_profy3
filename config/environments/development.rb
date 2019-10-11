@@ -59,5 +59,6 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
+   config.action_mailer.default_url_options = { protocol: 'https', host: 'https://b35020dc2b2741568f45743d6403e600.vfs.cloud9.ap-northeast-1.amazonaws.com' }
   config.web_console.whitelisted_ips ='0.0.0.0/0'
 end
